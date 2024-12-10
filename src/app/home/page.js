@@ -4,21 +4,16 @@ const page = () => {
   return (
     <div className="bg-gray-50 min-h-screen">
     {/* Navbar */}
-    <header className="fixed w-full bg-[#5F41E4] text-white p-4 shadow-md">
-      <div className=" flex justify-between items-center">
-    <div className='flex items-center'>
-
-      <h1 className=" text-2xl font-bold">Thrift Store</h1>
-    </div>
-       <div className='flex items-center'>
-         <nav>
+    <header className="bg-[#5F41E4] text-white p-4 shadow-md">
+      <div className="max-w-6xl mx-auto flex justify-between items-center">
+        <h1 className="text-2xl font-bold">Thrift Store</h1>
+        <nav>
           <ul className="flex space-x-6">
             <li><a href="#about" className="hover:text-gray-300">About Us</a></li>
             <li><a href="#add-more" className="hover:text-gray-300">Add More</a></li>
             <li><a href="#shop" className="hover:text-gray-300">Shop</a></li>
           </ul>
         </nav>
-        </div>
       </div>
     </header>
 
